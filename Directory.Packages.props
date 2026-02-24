@@ -1,0 +1,23 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+        <!-- Avalonia packages -->
+        <PackageVersion Include="Avalonia" Version="11.3.12" />
+        <PackageVersion Include="Avalonia.Themes.Fluent" Version="11.3.12" />
+        <PackageVersion Include="Avalonia.Fonts.Inter" Version="11.3.12" />
+        <PackageVersion Include="Avalonia.Diagnostics" Version="11.3.12" />
+        <PackageVersion Include="Avalonia.Desktop" Version="11.3.12" />
+        <PackageVersion Include="Avalonia.iOS" Version="11.3.12" />
+
+        <!-- MVVM -->
+        <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+
+        <!-- CBR support -->
+        <PackageVersion Include="SharpCompress" Version="0.46.2" />
+
+        <!-- DI -->
+        <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.3" />
+    </ItemGroup>
+</Project>
